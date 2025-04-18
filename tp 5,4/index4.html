@@ -2,24 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Manipulation du DOM</title>
-  <style>
-    .ma-div {
-      padding: 20px;
-      border: 1px solid #170202;
-      margin: 20px;
-    }
-    p {
-      padding: 10px;
-    }
-  </style>
-  <script src="javascript4.js"></script>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css5.css">
 </head>
 <body>
+  <h1>Ma To-Do List</h1>
 
-  <!-- La div et le paragraphe seront créés via JavaScript -->
- 
+  <form id="todo-form">
+    <input type="text" id="todo-input" placeholder="Nouvelle tâche...">
+    <button type="submit">Ajouter</button>
+    <ul id="todo-list"></ul>
+  </form>
   
+
+  
+  <script src="javascript5.js"></script>
 </body>
 </html>
-
